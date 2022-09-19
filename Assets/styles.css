@@ -22,6 +22,7 @@ body img {
     color: #454547;
     text-decoration: none;
     text-transform: uppercase;
+    transition: all 0.5s ease;
 }
 
 .main_menu ul li {
@@ -46,3 +47,36 @@ body img {
     border-right: 5px solid #e9b414;
 }
 
+
+.main_menu li a:hover {
+    background-color: greenyellow;
+    transition: all 0.5s ease;
+}
+
+/*Sub Menu*/
+
+.main_menu li ul {
+    position: absolute;
+
+}
+.main_menu li > ul li {
+    width: 150px;
+    border: 1px solid #e9b414;
+    background: aqua;
+}
+
+.main_menu li > ul li:first-child {
+    border-left: 1px solid #e9b414;
+}
+
+.main_menu li > ul li:last-child {
+    border-right: 1px solid #e9b414;
+}
+
+.main_menu li > ul li a {
+    padding: 10px;
+    text-transform: none;
+    background: aqua;
+
+
+}
