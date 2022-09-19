@@ -36,12 +36,10 @@
     min-width: 300px;
 }
 
-.sub-menu-list{
-    
-}
-
 .sub-sub-menu-list {
+    display: block;
     position: absolute;
     top: 0;
     left: 100%;
+    background-color: blueviolet;
 }
