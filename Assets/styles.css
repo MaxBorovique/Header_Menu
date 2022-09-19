@@ -1,0 +1,47 @@
+.menu a {
+    text-decoration: none;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu-list {
+    float: left;
+    
+}
+
+.menu-list>li {
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+.menu-list>li:hover .sub-menu-list{
+    display: block;
+}
+
+
+.menu-link {
+    float: left;
+    color: tomato;
+}
+
+.sub-menu-list {
+    display: none;
+    position: absolute;
+    top: 15px;
+    padding: 35px 20px 20px 20px;
+    display: inline-block;
+    padding: 5px 10px;
+    min-width: 300px;
+}
+
+.sub-menu-list{
+    
+}
+
+.sub-sub-menu-list {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
