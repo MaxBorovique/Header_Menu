@@ -1,45 +1,48 @@
-.menu a {
-    text-decoration: none;
+body {
+    background-image: url(./images/background_picture.jpg);
+    margin-top: 120px;
 }
 
-.menu li {
+body img {
+    width: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;  
+}
+
+
+.main_menu ul li {
+    float: left;
+}
+
+.main_menu ul li a {
+    display: block;
+    background: lightblue;
+    padding: 15px 30px 15px 40px;
+    font-size: 16px;
+    color: #454547;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main_menu ul li {
     position: relative;
 }
 
-.menu-list {
-    float: left;
-    
-}
-
-.menu-list>li {
-    float: left;
-    margin: 0px 10px 0px 0px;
-}
-
-.menu-list>li:hover .sub-menu-list{
-    display: block;
-}
-
-
-.menu-link {
-    float: left;
-    color: tomato;
-}
-
-.sub-menu-list {
-    display: none;
+.main_menu ul li a img {
     position: absolute;
     top: 15px;
-    padding: 35px 20px 20px 20px;
-    display: inline-block;
-    padding: 5px 10px;
-    min-width: 300px;
+    left: 12px;
 }
 
-.sub-sub-menu-list {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 100%;
-    background-color: blueviolet;
+.main_menu ul li {
+    border-right: 2px solid #e9b414;
 }
+
+.main_menu ul li:first-child {
+    border-left: 5px solid #e9b414;
+}
+
+.main_menu ul li:last-child {
+    border-right: 5px solid #e9b414;
+}
+
