@@ -57,6 +57,7 @@ body img {
 
 .main_menu li ul {
     position: absolute;
+    display: none;
 
 }
 .main_menu li > ul li {
@@ -77,6 +78,29 @@ body img {
     padding: 10px;
     text-transform: none;
     background: aqua;
-
+    
 
 }
+
+.main_menu li:hover ul {
+    display: block;
+}
+
+.main_menu li ul li ul {
+    max-width:150px ;
+    position: absolute;
+    right: -151px;
+    top: 0px;
+
+}
+
+.types li {
+    display: none;
+}
+
+
+
+#link:hover > .types li  {
+    display: block;
+}
+
