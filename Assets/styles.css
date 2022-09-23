@@ -14,6 +14,7 @@ body img {
     float: left;
 }
 
+
 .main_menu ul li a {
     display: block;
     background: lightblue;
@@ -24,6 +25,17 @@ body img {
     text-transform: uppercase;
     transition: all 0.5s ease;
 }
+
+.main_menu :hover #link {
+    background-color: greenyellow;
+    transition: all 0.5s ease;
+}
+
+.hh :hover ul  {
+    background-color: black;
+
+}
+
 
 .main_menu ul li {
     position: relative;
@@ -47,11 +59,11 @@ body img {
     border-right: 5px solid #e9b414;
 }
 
-
+/*
 .main_menu li a:hover {
     background-color: greenyellow;
     transition: all 0.5s ease;
-}
+}*/
 
 /*Sub Menu*/
 
@@ -84,6 +96,7 @@ body img {
 
 .main_menu li:hover ul {
     display: block;
+    
 }
 
 .main_menu li ul li ul {
@@ -104,3 +117,7 @@ body img {
     display: block;
 }
 
+.main_menu li:hover ul a {
+    background-color: chartreuse;
+
+}
