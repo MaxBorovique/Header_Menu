@@ -1,6 +1,7 @@
 body {
     background-image: url(./images/background_picture.jpg);
     margin-top: 120px;
+    margin-left: 120px;
 }
 
 body img {
@@ -78,7 +79,6 @@ body img {
 .main_menu li > ul li a {
     padding: 10px;
     text-transform: none;
-    background:;
     
 
 }
